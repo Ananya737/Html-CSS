@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border: 10px solid black;
+    padding: 40px;
+}
+/*.container {
+    background: brown;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    /* flex start, flex end, space around, space evenly, space between */
+    /*justify-content: center;
+}
+.container .item {
+    border: 3px solid blue;
+    width: 100px;
+    height: 100px;
+
+    background: lightblue;
+}

@@ -1,0 +1,54 @@
+.container{
+    background: brown;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align  */
+    align-items: center;
+    gap: 20px;
+    height: 500px;
+
+    flex-wrap: wrap;
+}
+.box
+{
+    background:wheat;
+    color: black;
+    font-size: 50px;
+    width: 100px;
+    height: 100px;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    
+    
+}
+.card{
+    background:  rgb(250, 230, 230);
+    width: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+.card img{
+    width: 100%;
+    height: 300px;
+}
+.btn{
+    background: black;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: none;
+    border-radius: 20px;
+
+  
+}

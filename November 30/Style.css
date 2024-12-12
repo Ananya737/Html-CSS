@@ -1,0 +1,27 @@
+*{
+    margin: o;
+    padding: 0;
+    /* yet to be taught */
+    box-sizing: border-box; 
+}
+.container{
+    /* vh is for view height */
+    height: 100vh; 
+    background-image: url(/patrick-shaun-eAaPL2j8ygw-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    /* Shorthand - image repeat position size */
+    background: url(/patrick-shaun-eAaPL2j8ygw-unsplash.jpg) no-repeat center center/cover;
+}
+.box{
+    border: 10px solid black;
+    margin: 10px;
+    margin: 20px 40px;
+    margin: 10px 20px 30px 40px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 40px;
+    padding: 20px ;
+}
+/* task: card and button. */

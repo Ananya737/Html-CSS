@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+<body>
+    <h2>Register for dance class!</h2>
+    <form action="action_page.php" >
+        <div>
+            <label for="name">Full name</label>
+            <input type="text"  id="name" placeholder="Enter your name">
+            
+            
+        </div><br>
+        <div>
+            <label for="email">Email address</label>
+            <input type="email" name="" id="email" placeholder="Enter your email">
+       
+        </div>
+        <br>
+        <div>
+            <label for="number">Mobile number</label>
+            <input type="number" name="" id="number" placeholder="Enter your number">
+        </div>
+        <br>
+        <div>
+            <label for="pwd">Create Password</label>
+            <input type="password" name="" id="pwd" placeholder="Password">
+        </div><br>
+        <div>
+            <label for="age">Age</label>
+            <input type="number" name="" id="age" placeholder="Enter your age"> 
+        </div>
+        <br>
+        <div>
+            <label for="contact">Preferred method of contact</label><br>
+            <input type="radio" name="contact" id="" value="email">Email
+            <input type="radio" name="contact" id="" value="mobile number">Mobile number
+        </div>
+        <br>
+        <div>
+            <label for="dob">DOB</label>
+            <input type="date" name="" id="dob">
+        </div>
+        <br>
+        <div>
+            <label for="gender">Gender</label><br>
+            <input type="radio" name="gender" id="" value="Male">Male
+            <input type="radio" name="gender" id="" value="Female">Female
+        </div>
+        <br>
+        <div>
+            <label for="dance form">Select dance form &nbsp;</label>
+             <select name="" id="dance form">
+            <option value="Kathak">Kathak</option>
+            <option value="Bharatnatyam">Bharatnatyam</option>
+            <option value="Odissi">Odissi</option>
+            <option value="Kathakali">Kathakali</option>
+            <option value="Kuchipudi">Kuchipudi</option>
+                </select>
+            
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Register"> &nbsp;
+            <span>
+                <input type="reset" value="Reset">
+            </span>
+        </div>
+    </form>
+</body>
+</html>

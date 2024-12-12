@@ -1,0 +1,9 @@
+/* Element selector */
+body{
+    background-color: rgb(245, 189, 125);
+    color: brown;
+}
+h2{
+    background-color: black;
+    color: aliceblue;
+}

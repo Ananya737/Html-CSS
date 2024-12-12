@@ -1,0 +1,42 @@
+/* Universal selector */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Id selector */
+#myheading{
+    background-color: black;
+    color: bisque;
+}
+/* Class selector */
+.common{
+    background: #8a0909;
+    color: antiquewhite;
+}
+.diff{
+    font-size: 70px;
+}
+ div #image{
+    height: 400px;
+    width: 600px;
+}
+.common2{
+    background: #000;
+    color: aliceblue;
+}
+p{
+    background: #3e2e2e;
+    color: rgb(226, 217, 217);
+}
+img{
+    height: 200px;
+    width: 100px;
+}
+/* Nested selector
+Multiple selector */
+p,
+.class{
+
+}
+/* Portfolio
+Multipage website-6 */

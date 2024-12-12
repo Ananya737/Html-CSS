@@ -1,0 +1,44 @@
+/* body{
+    background: rgb(89,67,234);
+}
+/* rgba */
+/* body{
+    background: rgba(red, green, blue, alpha); 
+    /* value of a is between 0 and 1 */
+
+/* #fff - hexadecimal  */
+/* h1{
+    background: #fff;
+} */ 
+.mypara{
+    background: brown;
+    color: black;
+    font-size: 34px;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    text-decoration: underline;
+    font-weight: 900;
+    text-transform: capitalize;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    /* border */
+    border-width: 9px ;
+    /* solid, dotted, dashed; */
+    border-style: solid;
+    
+    border-radius: 10px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 20px;
+
+
+
+}
+.new {
+    border-radius: 20px;
+}
+
+#circle{
+    border-color: brown;
+    border-radius: 50% ;
+}

@@ -1,0 +1,11 @@
+
+.container{
+    background-color: yellow;
+    height: 600px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.box{
+    background-color: lightblue;
+    height: 100px;
+}
